@@ -35,7 +35,7 @@ jobs:
       
     - name: Build and test project
       run: |
-        cd /spark/spark-scala/ScalaSparkApplications
+        cd spark/spark-scala/ScalaSparkApplications
         sbt test
-        working-directory: /spark/spark-scala/ScalaSparkApplications
+        working-directory: spark/spark-scala/ScalaSparkApplications
         
